@@ -1,0 +1,11 @@
+seed,condition,duration_s,cog_steps,motor_steps,mean_eps,max_eps,reflex_trips,hopfield_writes,mean_kl_surprise
+42,Integrated_Nominal_CompON,1.0,10,100,0.017163,0.042372,0,100,8.504322
+42,Integrated_Perturbed10N_CompON,1.0,10,100,0.016966,0.165858,1,100,8.409158
+1337,Integrated_Nominal_CompON,1.0,10,100,0.017004,0.046723,0,100,11.37947
+1337,Integrated_Perturbed10N_CompON,1.0,10,100,0.019682,0.171384,1,100,11.810469
+2024,Integrated_Nominal_CompON,1.0,10,100,0.016754,0.03939,0,100,9.100741
+2024,Integrated_Perturbed10N_CompON,1.0,10,100,0.019608,0.160091,1,100,9.585179
+7,Integrated_Nominal_CompON,1.0,10,100,0.018364,0.042251,0,100,7.718219
+7,Integrated_Perturbed10N_CompON,1.0,10,100,0.018606,0.148909,1,100,8.280775
+99,Integrated_Nominal_CompON,1.0,10,100,0.017614,0.039418,0,100,11.01924
+99,Integrated_Perturbed10N_CompON,1.0,10,100,0.017348,0.147128,1,100,11.150772

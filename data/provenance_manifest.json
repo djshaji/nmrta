@@ -1,0 +1,59 @@
+{
+  "timestamp_utc": "2026-10-14T13:54:36.712680+00:00",
+  "execution_mode": "genuine_closed_loop_simulation_v4",
+  "environment": {
+    "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+    "system": "Linux",
+    "release": "4.19.0-gvisor",
+    "machine": "x86_64",
+    "cpu_count": 2,
+    "python_version": "3.11.2",
+    "numpy_version": "2.1.3",
+    "scipy_version": "1.15.2",
+    "pandas_version": "2.2.3",
+    "matplotlib_version": "3.10.1"
+  },
+  "experimental_design": {
+    "seeds": [
+      42,
+      1337,
+      2024,
+      7,
+      99
+    ],
+    "disturbance_gating_trajectories": 80,
+    "sensorimotor_steps_per_trajectory": 1000,
+    "cerebellar_training_steps_per_seed": 10000,
+    "pulses_per_perturbed_trajectory": 25,
+    "total_pulses_logged_both_cells": 1000,
+    "integrated_nmrta_trajectories": 10,
+    "pulse_force_newtons": 10.0,
+    "pulse_duration_ms": 20.0,
+    "reflex_threshold_rad_s": 0.12,
+    "workspace_evaluation_trajectories": 40,
+    "exploratory_non_inferiority_margin_meters": 0.025,
+    "latency_sessions": 3,
+    "latency_total_samples": 1800
+  },
+  "source_code_sha256": {
+    "environment.py": "7ea109b186d1d8a5f6f5768496c79c514bc93cb9a80100dba88b067f2104c208",
+    "cerebellum.py": "bd360e962923b3856016df3395b618cfc83409c1acd196944432741994ea3df2",
+    "thalamus.py": "ab44fa7b907236ffa2006c7b28a1354101713e9e2d735fad726d68da332a4842",
+    "world_model.py": "25ca599be6d35f8b6a910094e07e8c0a1cbcf52e237767332b2dc99e7eb5c1c1",
+    "memory.py": "75d5d9b206bf17d27d8830002d15c773cc8ed2570c2561ab4fced1f5567906b3",
+    "planner.py": "9196a85f3052a963a888c2e9fec4c9878b7a6a5b003fcd57de58481531f9848b",
+    "nmrta_system.py": "d2e5f08cad6c2512c137efb226f1c1b65fc157503942e47ea4f28361ec5af4e9",
+    "run_full_experiment.py": "1b783487ae9465eebec5211775a33357be0a84a6b79b98e988be2ee94707a2d4",
+    "analyze_results.py": "54c8d5350c9df5b5e306e855656a41a799d8ac7357a3dbe6630247a75c14ee2c",
+    "run_diagnostic.py": "32e7396bc9cca3f4886e1ce0545d2b25c45da75fd1ddac717af48119b6f9a6bf",
+    "test_reproducibility.py": "8e12d3c9a0adfa007483d2ada968dbab32944b5de5186c934b0020b383206069"
+  },
+  "data_output_sha256": {
+    "trajectory_summary.csv": "9df69a927640b19df118c2d718e103fe14fe31d617a54be657cdfb84f89d7c5c",
+    "disturbance_events.csv": "5a3b118b8f31bacc7e8500770a84d37fed2bd21d152924b60399582f7f15e6bd",
+    "integrated_nmrta_trajectories.csv": "5faf656b2ebe7bf8dceedc84d4a9d8ec29acaa317f40d2d5ec05bbf97d3fc78e",
+    "workspace_losses.csv": "a3378e5ec5621339255f23ef910aa35f1d52b442d749ef3c9d6ad23378d995d5",
+    "latency_samples.csv": "31c0b06cc33817c9d192f02300a74d4d47fc0256702668c1836883d84977c1c2",
+    "run_manifest.csv": "5301b2fbc0810c6357259330af38704528f5635d52407e6ada79b7b6c90e6334"
+  }
+}
